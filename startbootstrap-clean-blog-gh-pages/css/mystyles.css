@@ -1,0 +1,69 @@
+﻿/* Mason Quinn, last edited 4/16/22 */
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: lightskyblue;
+}
+
+ul {
+    font-size: 16px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.normal {
+    text-decoration: none;
+}
+
+.common {
+    /*background-color: #CCCCCC;
+    border: solid 2px white;*/
+    position: absolute;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 1px #555555;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.mainbody {
+    top: 114px;
+    right: 5px;
+    left: 5px;
+    bottom: 64px;
+    padding-right: 5px;
+}
+
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: #999999;
+    position: fixed;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.subheader {
+    float: right;
+}
